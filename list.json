@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "name": "Vitamin",
+        "price": 500,
+        "image": "assets/images/bitmap/img.jpg",
+        "codeProduct": "13672986",
+        "formatProduct": "Порошок",
+        "origin": "Россия",
+        "type": "Витамины",
+        "areaOfUse": "Витамины"
+    },
+    {
+        "id": "2",
+        "name": "Vitamin",
+        "price": 500,
+        "image": "assets/images/bitmap/img.jpg",
+        "codeProduct": "13672986",
+        "formatProduct": "Порошок",
+        "origin": "Россия",
+        "type": "Витамины",
+        "areaOfUse": "Витамины"
+    },
+    {
+        "id": "3",
+        "name": "Vitamin",
+        "price": 500,
+        "image": "assets/images/bitmap/img.jpg",
+        "codeProduct": "13672986",
+        "formatProduct": "Порошок",
+        "origin": "Россия",
+        "type": "Витамины",
+        "areaOfUse": "Витамины"
+    },
+    {
+        "id": "4",
+        "name": "Vitamin",
+        "price": 500,
+        "image": "assets/images/bitmap/img.jpg",
+        "codeProduct": "13672986",
+        "formatProduct": "Порошок",
+        "origin": "Россия",
+        "type": "Витамины",
+        "areaOfUse": "Витамины"
+    },
+    {
+        "id": "5",
+        "name": "Vitamin",
+        "price": 500,
+        "image": "assets/images/bitmap/img.jpg",
+        "codeProduct": "13672986",
+        "formatProduct": "Порошок",
+        "origin": "Россия",
+        "type": "Витамины",
+        "areaOfUse": "Витамины"
+    }
+]

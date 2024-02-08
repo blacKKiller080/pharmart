@@ -1,0 +1,114 @@
+name: pharma
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.2+3
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #freezed
+  json_annotation: ^4.6.0
+  json_serializable: ^6.3.1
+  freezed_annotation: ^2.1.0
+
+  # Dio
+  dio: ^4.0.6
+
+  # Flutter Bloc
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.3
+  http: ^0.13.5
+  bloc: ^8.1.0
+
+  #svg
+  flutter_svg: ^1.0.3
+
+  # localization
+  flutter_localizations: 
+    sdk: flutter
+  intl: ^0.18.1
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.2
+  easy_mask: ^2.0.1
+  font_awesome_flutter: ^10.3.0
+  mask_text_input_formatter: ^2.4.0
+  provider: ^6.0.5
+  drop_shadow: ^0.0.2+1
+  flutter_rating_bar: ^4.0.1
+  connectivity_plus: ^3.0.2
+  flutter_secure_storage: ^7.0.1
+  image_picker: ^0.8.6+3
+
+
+  # Charts
+  syncfusion_flutter_sliders: ^20.4.38
+  syncfusion_flutter_core: ^20.4.38
+  syncfusion_flutter_charts: ^20.4.43
+  pie_chart: ^5.3.2
+  sticky_headers: ^0.3.0+2
+  extended_masked_text: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.11.0"
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: MyHalykIosPlugin
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  # min_sdk_android: 21 # android min sdk min:16, default 21
+  # web:
+  #   generate: true
+  #   image_path: "path/to/image.png"
+  #   background_color: "#hexcode"
+  #   theme_color: "#hexcode"
+  # windows:
+  #   generate: true
+  #   image_path: "path/to/image.png"
+  #   icon_size: 48 # min:48, max:256, default: 48
+  # macos:
+  #   generate: true
+  #   image_path: "path/to/image.png"
+
+  #freezed
+  freezed: ^2.1.0+1
+  build_runner: ^2.2.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/png/
+    - assets/images/png/main_page/
+    - assets/images/svg/
+    - assets/images/svg/navbar/
+
+  fonts:
+  - family: Inter
+    fonts:
+      - asset: assets/fonts/Inter-Regular.ttf
+      - asset: assets/fonts/Inter-Black.ttf
+      - asset: assets/fonts/Inter-Bold.ttf
+      - asset: assets/fonts/Inter-ExtraBold.ttf
+      - asset: assets/fonts/Inter-ExtraLight.ttf
+      - asset: assets/fonts/Inter-Light.ttf
+      - asset: assets/fonts/Inter-Medium.ttf
+      - asset: assets/fonts/Inter-SemiBold.ttf
+      - asset: assets/fonts/Inter-Thin.ttf
+      

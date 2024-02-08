@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "pharma.kz-master",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "pharma.kz-master (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "pharma.kz-master (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "S8+",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+    ],
+}
